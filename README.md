@@ -1,2 +1,2 @@
 # ProExercise
-This repository has some exericises in the road of studying coding
+This repository stores some exericises in the road of studying coding
