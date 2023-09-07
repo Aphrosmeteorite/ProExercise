@@ -15,7 +15,7 @@
 
 <br>在每一次输出我们都会反复提醒用户使用M打开菜单，以免忘记  
 
----------------------
+***
 ### 本程序使用cmake，同时其结构如下<br />  
 
 > <font face="Courier new">main.cpp
@@ -27,4 +27,22 @@
 > Ui : stu::String  
 > >Ui.cpp  
 > Ui.h
+
+### 使用
+首先确保你下载了cmake。
+
+拉取仓库并完成编译。
+~~~
+git clone -b StringClass https://github.com/Aphrosmeteorite/ProExercise
+cd ProExercise
+
+mkdir build && cd build
+cmake ..
+cmake --build .
+~~~
+
+运行测试。
+~~~
+./Debug/StringClass.exe
+~~~
 
